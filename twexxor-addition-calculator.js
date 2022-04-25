@@ -27,7 +27,7 @@ const twexxorAdditionCalculator = function(_13_2, _13_3) {
 			_13_4[_13_3[_13_7++]] = 1;
 		}
 
-		if (typeof _13_4['e']] === 'number') {
+		if (typeof _13_4['e'] === 'number') {
 			_13_3 = _13_0(_13_3);
 		}
 
