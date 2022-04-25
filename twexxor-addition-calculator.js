@@ -22,6 +22,7 @@ const twexxorAdditionCalculator = function(_13_2, _13_3) {
 		_13_3 += '';
 		_13_4 = {};
 		_13_6 = _13_3.length;
+		_13_7 = 0;
 
 		while (_13_7 !== _13_6) {
 			_13_4[_13_3[_13_7++]] = 1;
