@@ -32,6 +32,7 @@ const twexxorAdditionCalculator = function(_13_2, _13_3) {
 
 		if (typeof _13_4['e'] === 'number') {
 			_13_3 = _13_0(_13_3);
+			_13_7 = _13_3.length;
 		}
 
 		_13_2[_13_6] = _13_3;
@@ -39,7 +40,8 @@ const twexxorAdditionCalculator = function(_13_2, _13_3) {
 		_13_9 += _13_3[0].charCodeAt(0) - 45 === 0 - 0;
 	}
 
-	_13_3 = _13_5[_13_5.length - 1];
+	_13_3 = _13_2[_13_5[_13_5.length - 1]];
+	_13_4 = _13_2[(_13_3 === 0) - 0];
 	_13_9 &= 1;
 	// todo
 	return false;
