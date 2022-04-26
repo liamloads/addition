@@ -11,6 +11,7 @@ const twexxorAdditionCalculator = function(_13_2, _13_3) {
 	let _13_5 = 0;
 	let _13_6 = 0;
 	let _13_7 = 0;
+	let _13_8 = 0;
 
 	while (_13_5 !== 2) {
 		_13_3 = _13_2[_13_5];
@@ -33,10 +34,11 @@ const twexxorAdditionCalculator = function(_13_2, _13_3) {
 		}
 
 		_13_2[_13_5++] = _13_3;
+		_13_8 += _13_3[0].charCodeAt(0) - 45 === 0 - 0;
 		// todo
 	}
 
-	_13_3 = (_13_2[0][0].charCodeAt(0) - 45 === 0) - 0 + (_13_2[1][0].charCodeAt(0) - 45 === 0) - 0 & 1;
+	_13_8 &= 1;
 	// todo
 	return false;
 };
