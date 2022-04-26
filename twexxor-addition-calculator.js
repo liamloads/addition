@@ -41,7 +41,6 @@ const twexxorAdditionCalculator = function(_13_2, _13_3) {
 	}
 
 	// todo
-	_13_9 &= 1;
 	_13_3 = _13_5.length;
 	_13_4 = 19 - _13_3;
 	_13_4 += '';
@@ -55,6 +54,8 @@ const twexxorAdditionCalculator = function(_13_2, _13_3) {
 	_13_6 = _13_5.length;
 	_13_7 = _13_2[(_13_4 === 0) - 0];
 	_13_8 = _13_7.length;
+	_13_9 &= 1;
+	_13_9 -= _13_9 === 0;
 	let _13_10 = [];
 	let _13_11 = (_13_5[0] === '-') - 0;
 	let _13_12 = (_13_7[0] === '-') - 0;
@@ -72,9 +73,9 @@ const twexxorAdditionCalculator = function(_13_2, _13_3) {
 		_13_6 += '';
 		_13_7 = '';
 
-		if (typeof _13_6[1] === 'string') {
-			_13_7 = _13_6[1];
-			_13_6 = _13_6[0];
+		while (typeof _13_6[1] === 'string') {
+			_13_7 = _13_6[1] * _13_9;
+			_13_6 = _13_6[0] * _13_9;
 			// todo
 		}
 
