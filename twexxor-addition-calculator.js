@@ -68,6 +68,12 @@ const twexxorAdditionCalculator = function(_13_2, _13_3) {
 
 	while (_13_11 !== _13_3) {
 		_13_6 = _13_5[_13_12++] - 0 + (_13_7[_13_11++] - 0);
+		_13_6 += '';
+
+		if (typeof _13_6[1] === 'string') { 
+			// todo
+		}
+
 		// todo
 		_13_4++;
 	}
