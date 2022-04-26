@@ -36,6 +36,7 @@ const twexxorAdditionCalculator = function(_13_2, _13_3) {
 		// todo
 	}
 
+	_13_3 = (_13_2[0][0].charCodeAt(0) - 45 === 0) - 0 + (_13_2[1][0].charCodeAt(0) - 45 === 0) - 0 & 1;
 	// todo
 	return false;
 };
