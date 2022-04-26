@@ -64,9 +64,9 @@ const twexxorAdditionCalculator = function(_13_2, _13_3) {
 	_13_4 = _13_3; 
 	_13_5 = 0;
 
-	while (_13_3 !== _13_3) {
+	while (_13_5 !== _13_3) {
 		// todo
-		_13_3++;
+		_13_5++;
 	}
 
 	// todo
