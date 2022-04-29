@@ -53,7 +53,7 @@ const twexxorAdditionCalculator = function(_13_4, _13_5) {
 
 		if (typeof _13_6['.'] === 'undefined') {
 			_13_5 += '.0';
-			_13_6['.'] = _13_11;
+			_13_6['.'] = _13_11++;
 		}
 
 		_13_4[_13_10] = _13_5;
