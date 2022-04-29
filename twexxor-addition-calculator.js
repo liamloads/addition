@@ -139,8 +139,17 @@ const twexxorAdditionCalculator = function(_13_4, _13_5) {
 		}
 	}
 
+	_13_4 = _13_7.length - _13_3;
+	_13_5 = '';
+	_13_6 = 0;
+
+	while (_13_6 !== _13_4) {
+		_13_5 += _13_7[_13_6++];
+	}
+
+	_13_5 += '.';
 	// todo
-	return false;
+	return _13_5;
 };
 
 if (typeof module !== 'undefined' && typeof module.exports !== 'undefined') {
