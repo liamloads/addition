@@ -159,8 +159,12 @@ const twexxorAdditionCalculator = function(_13_4, _13_5) {
 		_13_10 += _13_8 !== '0' - 0;
 	}
 
+	if (_13_10 !== 0) {
+		_13_6 += '.' + _13_9;
+	}
+
 	// todo
-	return _13_5;
+	return _13_6;
 };
 
 if (typeof module !== 'undefined' && typeof module.exports !== 'undefined') {
