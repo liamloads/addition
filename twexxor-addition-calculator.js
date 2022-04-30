@@ -15,6 +15,7 @@ const _13_0 = [
 const _13_1 = require('twexxor-exponent-converter');
 const _13_2 = require('twexxor-numeric-validator');
 let _13_3 = require('twexxor-string-repeater');
+// todo
 
 const twexxorAdditionCalculator = function(_13_4, _13_5) {
 	_13_4 = [
