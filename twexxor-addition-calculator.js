@@ -18,8 +18,8 @@ let _13_3 = require('twexxor-string-repeater');
 
 const twexxorAdditionCalculator = function(_13_4, _13_5) {
 	_13_4 = [
-		_13_4,
-		_13_5
+		'0' + _13_4,
+		'0' + _13_5
 	];
 	_13_5 = '';
 	let _13_6 = {};
