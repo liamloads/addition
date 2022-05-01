@@ -1,12 +1,4 @@
 const _13_0 = {'NaN': 1};
-const _13_1 = [
-	function(_13_0, _13_1) {
-		return _13_0 + _13_1;
-	},
-	function(_13_0, _13_1) {
-		return _13_0 - _13_1;
-	}
-];
 const _13_2 = require('twexxor-exponent-converter');
 const _13_3 = require('twexxor-numeric-validator');
 const _13_4 = require('twexxor-string-repeater');
@@ -124,7 +116,7 @@ const twexxorAdditionCalculator = function(_13_5, _13_6) {
 				while (typeof _13_16[1] === 'string') {
 					_13_17 = _13_16[1] - 0;
 					_13_10[_13_19--] = _13_17;
-					_13_16 = _13_1[_13_14](_13_16[0] - 0, _13_10[_13_19]);
+					_13_16 = _13_16[0] - 0 + _13_10[_13_19];
 					_13_10[_13_19] = _13_17 - 0;
 				}
 			}
