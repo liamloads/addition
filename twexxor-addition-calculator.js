@@ -183,6 +183,7 @@ const twexxorAdditionCalculator = function(_13_4, _13_5) {
 		},
 		function() {
 			while (_13_17 !== -1) {
+				// todo
 				_13_15 = _13_9[_13_12] - _13_14[_13_17];
 				_13_9[_13_12] = _13_15;
 				_13_15 += '';
