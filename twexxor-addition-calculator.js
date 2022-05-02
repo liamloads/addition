@@ -200,6 +200,10 @@ const twexxorAdditionCalculator = function(_13_5, _13_6) {
 		}
 	}
 
+	if (_13_14 === 2) { 
+		_13_7 = '-' + _13_7;
+	}
+
 	// todo
 	return _13_7;
 };
