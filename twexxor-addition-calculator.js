@@ -158,6 +158,10 @@ const twexxorAdditionCalculator = function(_13_4, _13_5) {
 				// todo
 			}
 
+			if (_13_11 === '0') {
+				return '0';
+			}
+
 			// todo
 		}
 
