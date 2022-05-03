@@ -186,9 +186,9 @@ const twexxorAdditionCalculator = function(_13_4, _13_5) {
 			_13_4[_13_12] = _13_11;
 		}
 
-		if (_13_4[0] === '-') { 
-                        _13_13 = 11;
-                }
+		if (_13_4[1][0] === '-') {
+			_13_13 = 11;
+		}
 	}
 
 	_13_5 = _13_7[_13_6];
@@ -322,7 +322,6 @@ const twexxorAdditionCalculator = function(_13_4, _13_5) {
 		_13_6 = '-' + _13_6;
 	}
 
-	// todo
 	return _13_6;
 };
 
