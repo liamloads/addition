@@ -1,7 +1,7 @@
 {
 	"dependencies": {
 		"twexxor-exponent-converter": "1.0.0",
-		"twexxor-numeric-converter": "1.0.8",
+		"twexxor-numeric-validator": "1.0.8",
 		"twexxor-string-repeater": "1.0.8"
 	},
 	"main": "twexxor-addition-calculator.js",
