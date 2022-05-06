@@ -1,6 +1,6 @@
 {
 	"dependencies": {
-		"twexxor-exponent-converter": "1.0.1",
+		"twexxor-exponent-converter": "1.0.2",
 		"twexxor-numeric-validator": "1.0.8",
 		"twexxor-string-repeater": "1.0.8"
 	},
@@ -10,5 +10,5 @@
 		"type": "git",
 		"url": "git://github.com/twexxor/javascript-addition-calculator.git"
 	},
-	"version": "1.0.3"
+	"version": "1.0.4"
 }
