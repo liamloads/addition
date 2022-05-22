@@ -1,14 +1,15 @@
 {
 	"dependencies": {
-		"twexxor-exponent-converter": "1.0.3",
-		"twexxor-numeric-validator": "1.0.8",
-		"twexxor-string-repeater": "1.0.8"
+		"twexxor-exponent-converter": "1.0.4",
+		"twexxor-numeric-validator": "1.0.9",
+		"twexxor-string-repeater": "1.0.9"
 	},
+	"license": "Read license.md.",
 	"main": "twexxor-addition-calculator.js",
 	"name": "twexxor-addition-calculator",
 	"repository": {
 		"type": "git",
 		"url": "git://github.com/twexxor/javascript-addition-calculator.git"
 	},
-	"version": "1.0.8"
+	"version": "1.0.9"
 }
