@@ -4,6 +4,8 @@
 		"twexxor-numeric-validator": "1.0.9",
 		"twexxor-string-repeater": "1.0.9"
 	},
+	"description": "Calculate huge number sums with precise strings.",
+	"keywords": ["add", "big", "calculation", "fast", "integer", "large", "math", "plus", "precision"],
 	"license": "Read license.md.",
 	"main": "twexxor-addition-calculator.js",
 	"name": "twexxor-addition-calculator",
