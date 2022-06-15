@@ -21,7 +21,12 @@ void _0(char _1[], unsigned long *_2, unsigned long _3, short int *_4) {
         _7 = 2;
     }
 
-    while (_1[_5++] != '.') {
+    while (_1[_5] != '.') {
+        if ((512 >> (_1[_5] - 48)) != 0) {
+            // todo
+        }
+
+        _5++;
         // todo
     }
 
