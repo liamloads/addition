@@ -26,7 +26,7 @@ int main(int _1, char *_2[]) {
     char _9[_8];
     strncpy(_9, _2[2], _8);
     _0(_9, &_7, _8, &_6);
-   // todo
+    // todo
     printf("%s\n", _5);
     printf("%lu\n", _3);
     printf("%s\n", _9);
