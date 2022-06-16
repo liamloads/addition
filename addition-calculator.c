@@ -28,7 +28,9 @@ void _0(char _1[], unsigned long *_2, unsigned long _3, short int *_4) {
         _8 = ~((_8 >> 1) + (_8 - 14)) + 1;
 
         if (_8 != (_8 & 15)) {
-            // todo
+            *_4 = -1;
+            printf("false");
+            return;
         }
 
         _5++;
