@@ -51,11 +51,21 @@ int main(int _1, char *_2[]) {
     strncat(_5, _2[1], _4);
     short int _6 = 0;
     _0(_5, &_3, _4, &_6);
+
+    if (_4 == -1) {
+        return 0;
+    }
+
     unsigned long _7 = strlen(_2[2]) + 1;
     unsigned long _8 = _7;
     char _9[_8];
     _9[0] = '\0';
     strncat(_9, _2[2], _8);
+
+    if (_4 == -1) {
+        return 0;
+    }
+
     _0(_9, &_7, _8, &_6);
     // todo
     return 0;
