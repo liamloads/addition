@@ -43,7 +43,7 @@ void _0(char _1[], unsigned long *_2, unsigned long _3, short int *_4) {
     }
 
     //todo
-    strncat(_6, &_1[_8], _5);
+    strncat(_6, &_1[_8], _5 - _8);
     _1[0] = '\0';
     strncat(_1, _6, _7);
     *_2 = _5 - 1;
