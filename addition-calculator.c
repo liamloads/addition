@@ -38,6 +38,10 @@ void _0(char _1[], unsigned long *_2, unsigned long _3, short int *_4) {
         // todo
     }
 
+    if (_1[_5 + 1] != '\0') {
+        // todo
+    }
+
     //todo
     strncat(_6, &_1[_8], _5);
     _1[0] = '\0';
