@@ -22,7 +22,7 @@ void _0(char _1[], unsigned long *_2, unsigned long _3, short int *_4) {
     }
 
     int _8 = _5;
-    int _9 = 0;
+    short int _9 = 0;
 
     while (_1[_5] != '.') {
         _9 = _1[_5++] - 48;
