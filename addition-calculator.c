@@ -18,8 +18,7 @@ void _0(char _1[], unsigned long *_2, unsigned long _3, short int *_4) {
 
     if (_1[_5] == '.') {
         _5++;
-        strncat(_6, "0.", 2);
-        _7 = 2;
+        strncat(_6, "0.", _7 = 2);
     }
 
     int _8 = _5;
