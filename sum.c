@@ -9,8 +9,11 @@ void _0(char _1[], unsigned long *_2, unsigned long *_3, short int *_4) {
         _5++;
     }
 
-    while (_1[_5++] == '0') {}
+    while (_1[_5++] == '0') {
+        *_2 -= 1;
+    }
 
+    *_3 = *_2;
     _5--;
     char _6[*_3];
     _6[0] = '\0';
