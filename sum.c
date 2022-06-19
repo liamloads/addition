@@ -50,7 +50,7 @@ void _0(char _1[], unsigned long *_2, unsigned long _3, short int *_4) {
 }
 
 int main(int _1, char *_2[]) {
-    unsigned long _3 = strlen(_2[1]) + 1;
+    unsigned long _3 = strlen(_2[1]);
     unsigned long _4 = _3;
     char _5[_4];
     _5[0] = '\0';
@@ -62,7 +62,7 @@ int main(int _1, char *_2[]) {
         return 0;
     }
 
-    unsigned long _7 = strlen(_2[2]) + 1;
+    unsigned long _7 = strlen(_2[2]);
     unsigned long _8 = _7;
     char _9[_8];
     _9[0] = '\0';
