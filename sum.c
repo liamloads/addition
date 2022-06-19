@@ -1,4 +1,3 @@
-GNU nano 6.3                                                             sum.c
 #include <stdio.h>
 
 void _0(char _1[], unsigned long *_2, unsigned long *_3, short int *_4) {
@@ -30,9 +29,9 @@ void _0(char _1[], unsigned long *_2, unsigned long *_3, short int *_4) {
         _9 = ~((_9 >> 1) + (_9 - 14)) + 1;
 
         if (_9 != (_9 & 15)) {
-             *_4 = -1;
+            *_4 = -1;
             printf("false");
-             return;
+            return;
         }
 
         _7++;
@@ -59,7 +58,7 @@ int main(int _1, char *_2[]) {
     short int _6 = 0;
     _0(_5, &_3, &_4, &_6);
 
-     if (_6 == -1) {
+    if (_6 == -1) {
         return 0;
     }
 
@@ -73,3 +72,7 @@ int main(int _1, char *_2[]) {
     if (_6 == -1) {
         return 0;
     }
+
+    // todo
+    return 0;
+}
