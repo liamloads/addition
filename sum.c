@@ -11,7 +11,7 @@ void _0(char _1[], unsigned long *_2, unsigned long *_3, short int *_4) {
 
     while (_1[_5++] == '0') {}
 
-    _5--;
+    *_3 -= --_5;
     char _6[*_3];
     _6[0] = '\0';
     unsigned long _7 = 0;
