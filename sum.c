@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void _0(char _1[], unsigned long *_2, unsigned long _3, short int *_4) {
+void _0(char _1[], unsigned long *_2, unsigned long *_3, short int *_4) {
     strncat(_1, ".", 1);
     unsigned long _5 = 0;
 
@@ -12,7 +12,7 @@ void _0(char _1[], unsigned long *_2, unsigned long _3, short int *_4) {
     while (_1[_5++] == '0') {}
 
     _5--;
-    char _6[_3];
+    char _6[*_3];
     _6[0] = '\0';
     unsigned long _7 = 0;
 
@@ -56,7 +56,7 @@ int main(int _1, char *_2[]) {
     _5[0] = '\0';
     strncat(_5, _2[1], _4);
     short int _6 = 0;
-    _0(_5, &_3, _4, &_6);
+    _0(_5, &_3, &_4, &_6);
 
     if (_6 == -1) {
         return 0;
@@ -67,7 +67,7 @@ int main(int _1, char *_2[]) {
     char _9[_8];
     _9[0] = '\0';
     strncat(_9, _2[2], _8);
-    _0(_9, &_7, _8, &_6);
+    _0(_9, &_7, &_8, &_6);
 
     if (_6 == -1) {
         return 0;
