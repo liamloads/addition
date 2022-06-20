@@ -11,14 +11,18 @@ void _0(char _1[], unsigned long *_2, unsigned long *_3, short int *_4) {
 
     while (_1[_5++] == '0') {}
 
-    *_3 -= --_5;
-    char _6[*_3];
-    _6[0] = '\0';
-    unsigned long _7 = 0;
+    unsigned long _6 = 0;
 
-    if (_1[_5] == '.') {
-        _5++;
-        strncat(_6, "0.", _7 = 2);
+    if (_1[_5 - 1] == '.') {
+        _6 = 1;
+    }
+
+    *_3 -= --_5 - _6;
+    char _7[*_3];
+    _7[0] = '\0';
+
+    if (_6 == 1) {
+        strncat(_7, "0", 1);
     }
 
     int _8 = _5;
@@ -34,19 +38,19 @@ void _0(char _1[], unsigned long *_2, unsigned long *_3, short int *_4) {
             return;
         }
 
-        _7++;
+        _6++;
     }
 
-    *_2 = _7;
+    *_2 = _6;
 
     if (_1[_5 + 1] != '\0') {
         // todo
     }
 
     //todo
-    strncat(_6, &_1[_8], _5 - _8);
+    strncat(_7, &_1[_8], _5 - _8);
     _1[0] = '\0';
-    strncat(_1, _6, _7);
+    strncat(_1, _7, _6);
 }
 
 int main(int _1, char *_2[]) {
