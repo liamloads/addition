@@ -1,8 +1,8 @@
 #include <stdio.h>
 
-void _0(char _1[], unsigned long *_2, unsigned long *_3, short int *_4) {
+void _0(char _1[], int *_2, int *_3, int *_4) {
     strncat(_1, ".", 1);
-    unsigned long _5 = 0;
+    int _5 = 0;
 
     if (_1[0] == '-') {
         *_4 += 1;
@@ -12,14 +12,14 @@ void _0(char _1[], unsigned long *_2, unsigned long *_3, short int *_4) {
     while (_1[_5++] == '0') {}
 
     int _6 = --_5;
-    short _7 = 0;
+    int _7 = 0;
 
     if (_1[_5] == '.') {
         _7 = 1;
     }
 
-    short _8 = 0;
-    unsigned long _9 = _7;
+    int _8 = 0;
+    int _9 = _7;
 
     while (_1[_5] != '.') {
         _8 = _1[_5++] - 48;
@@ -70,24 +70,29 @@ void _0(char _1[], unsigned long *_2, unsigned long *_3, short int *_4) {
     strncat(_10, &_1[_6], _9);
     _1[0] = '\0';
     strncat(_1, _10, *_3);
-    // todo
 }
 
 int main(int _1, char *_2[]) {
-    unsigned long _3 = 0;
-    unsigned long _4 = strlen(_2[1]);
+    int _3 = 0;
+    int _4 = 0;
+
+    while (_2[1][_4++] != '\0') {}
+
     char _5[_4];
     _5[0] = '\0';
     strncat(_5, _2[1], _4);
-    short int _6 = 0;
+    int _6 = 0;
     _0(_5, &_3, &_4, &_6);
 
     if (_6 == -1) {
         return 0;
     }
 
-    unsigned long _7 = 0;
-    unsigned long _8 = strlen(_2[2]);
+    int _7 = 0;
+    int _8 = 0;
+
+    while (_2[2][_8++] != '\0') {}
+
     char _9[_8];
     _9[0] = '\0';
     strncat(_9, _2[2], _8);
