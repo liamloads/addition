@@ -90,6 +90,13 @@ int main(int _1, char *_2[]) {
         return 0;
     }
 
+    int _10 = _4 - _3;
+    int _11 = _8 - _7;
+
+    if (_10 != _11) {
+        // todo
+    }
+
     // todo
     return 0;
 }
