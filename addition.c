@@ -139,6 +139,11 @@ int main(int _2, char *_3[]) {
                     _11 = _5;
                 }
             }
+
+            if (_14 == 0) {
+                printf("0");
+                return 0;
+            }
         }
     } else {
         _14 = ~_11;
