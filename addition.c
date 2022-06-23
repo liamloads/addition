@@ -86,6 +86,7 @@ int main(int _2, char *_3[]) {
     _0(_6, &_4, &_5, &_7);
 
     if (_7 == -1) {
+        printf("false");
         return 0;
     }
 
@@ -100,6 +101,7 @@ int main(int _2, char *_3[]) {
     _0(_10, &_8, &_9, &_7);
 
     if (_7 == -1) {
+        printf("false");
         return 0;
     }
 
