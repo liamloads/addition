@@ -21,7 +21,6 @@ void _0(char _1[], int *_2, int *_3, int *_4) {
 
         if ((_7 & 15) != _7) {
             *_4 = -1;
-            printf("false");
             return;
         }
 
@@ -37,7 +36,6 @@ void _0(char _1[], int *_2, int *_3, int *_4) {
 
             if ((_7 & 15) != _7) {
                 *_4 = -1;
-                printf("false");
                 return;
             }
 
