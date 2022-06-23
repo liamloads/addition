@@ -275,8 +275,12 @@ int main(int _2, char *_3[]) {
         _11 = 1;
     }
 
-    while (_11 != _4) {
-        printf("%i", _20[_11++]);
+    if (_11 == _4) {
+        printf("0");
+    } else {
+        while (_11 != _4) {
+            printf("%i", _20[_11++]);
+        }
     }
 
     // todo
