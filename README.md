@@ -1,3 +1,9 @@
+## About
+
+This is the cleanest and fastest calculator for sums of big numbers with full precision and memory efficiency.
+
+It can be compiled and used as a lightweight binary on any operating system with any programming language that supports command line execution.
+
 ## Installation
 
 #### Linux
