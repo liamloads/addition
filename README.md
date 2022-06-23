@@ -11,6 +11,9 @@ It's written in ANSI C and can be compiled as a lightweight binary on any operat
 #### Size
 5.4 KB
 
+#### Version
+v1.0.0
+
 ## Installation
 
 #### Linux
