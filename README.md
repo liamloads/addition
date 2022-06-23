@@ -1,8 +1,15 @@
 ## About
 
-This is the cleanest and fastest calculator for sums of big numbers with full precision and memory efficiency.
+#### Description
+This is a fast and memory-efficient calculator tool for sums of big numbers with full precision.
 
-It can be compiled and used as a lightweight binary on any operating system with any programming language that supports command line execution.
+It's written in ANSI C and can be compiled as a lightweight binary on any operating system with any programming language that supports command line execution.
+
+#### License
+[MIT License](https://github.com/twexxor/addition/blob/main/LICENSE)
+
+#### Size
+5.4 KB
 
 ## Installation
 
