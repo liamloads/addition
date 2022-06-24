@@ -9,7 +9,7 @@ It's written in ANSI C and can be compiled as a lightweight binary on any operat
 [MIT License](https://github.com/twexxor/addition/blob/main/LICENSE)
 
 #### Size
-5.4 KB
+5.43 KB
 
 #### Version
 v1.0.0
@@ -53,3 +53,6 @@ gcc -o twexxor-addition addition.c
 
 ./twexxor-addition -0.000000123456789123456789 1.01010101010101010101010101010101
 1.01010088664422097755331201010101
+
+./twexxor-addition 1 _
+false
