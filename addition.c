@@ -288,13 +288,16 @@ int main(int _2, char *_3[]) {
     }
 
     if (_5 != _11) {
-        printf(".");
+        while (_20[--_11] == 0) {}
 
-        while (_5 != _11) {
-            printf("%i", _20[_5++]);
+        if (_5 != ++_11) {
+            printf(".");
+
+            while (_5 != _11) {
+                printf("%i", _20[_5++]);
+            }
         }
     }
 
-    // todo
     return 0;
 }
