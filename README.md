@@ -9,10 +9,10 @@ It's written in ANSI C and can be compiled as a lightweight binary on any operat
 [MIT License](https://github.com/twexxor/addition/blob/main/LICENSE)
 
 #### Size
-5.43 KB
+5.42 KB
 
 #### Version
-v1.0.0
+v1.0.1
 
 ## Installation
 
