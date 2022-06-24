@@ -146,7 +146,7 @@ int main(int _2, char *_3[]) {
                 }
             }
 
-            if (_14 == 0) {
+            if (_17 == 0) {
                 printf("0");
                 return 0;
             }
