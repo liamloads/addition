@@ -3,7 +3,7 @@
 #### Description
 This is a fast and memory-efficient calculator tool for sums of big numbers with full precision.
 
-It's written in ANSI C and can be compiled as a lightweight binary on any operating system with any programming language that supports command line execution.
+It's written in C and can be compiled as a lightweight binary on any operating system with any programming language that supports command line execution.
 
 #### License
 [MIT License](https://github.com/twexxor/addition/blob/main/LICENSE)
