@@ -8,12 +8,6 @@ It's written in C and can be compiled as a lightweight binary on any operating s
 #### License
 [MIT License](https://github.com/twexxor/addition/blob/main/LICENSE)
 
-#### Size
-5.48 KB
-
-#### Version
-v1.0.3
-
 ## Installation
 
 #### Linux
@@ -25,6 +19,14 @@ gcc -o twexxor-addition addition.c
 ```
 
 ## Usage
+
+#### Details
+
+The command line interface accepts two numeric parameters.
+
+The result is the first parameter added to the second parameter.
+
+#### Examples
 
 ``` console
 ./twexxor-addition 1 10
