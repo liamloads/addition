@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 
 void _0(char _1[], int *_2, int *_3, int *_4) {
     strncat(_1, ".", 1);
