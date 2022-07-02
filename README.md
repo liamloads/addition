@@ -13,9 +13,9 @@ It's written in C and can be compiled as a lightweight binary on any operating s
 #### Linux
 ``` console
 cd
-git clone https://github.com/twexxor/addition.git
+sudo git clone https://github.com/twexxor/addition.git
 cd addition
-gcc -o twexxor-addition addition.c
+sudo gcc -o twexxor-addition addition.c
 ```
 
 ## Usage
