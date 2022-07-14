@@ -2,6 +2,11 @@
 #include <string.h>
 
 void _0(char _1[], int *_2, int *_3, int *_4) {
+    if (_1[0] == '\0') {
+        *_4 = -1;
+        return;
+    }
+
     strncat(_1, ".", 2);
     int _5 = 0;
 
