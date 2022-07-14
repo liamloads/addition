@@ -13,9 +13,9 @@ It's written in C and can be compiled as a lightweight binary to use with any pr
 #### Linux
 ``` console
 cd
-sudo git clone https://github.com/liamloads/addition.git
+git clone https://github.com/liamloads/addition.git
 cd addition
-sudo gcc -o addition addition.c
+gcc -o addition addition.c
 ```
 
 ## Usage
