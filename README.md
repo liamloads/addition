@@ -22,9 +22,9 @@ gcc -o addition addition.c
 
 #### Details
 
-The command line interface accepts two numeric parameters.
+The command line interface accepts two numeric arguments.
 
-The result is the first parameter added to the second parameter.
+The result is the first argument added to the second argument.
 
 #### Examples
 
