@@ -78,7 +78,7 @@ void _1(char _2[], int *_3) {
 }
 
 int main(int _2, char *_3[]) {
-    if ((_3[1] == (void *)0) || (_3[2] == (void *)0)) {
+    if (_2 != 3) {
         printf("false");
         return 0;
     }
