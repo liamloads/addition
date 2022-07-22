@@ -193,6 +193,8 @@ int main(int _2, char *_3[]) {
         strncat(_18, _4, _2);
     }
 
+    // todo: prevent storing _8, _17 and _18 in memory
+
     if (_12 != 0) {
         if (_14 == 0) {
             _4[0] = '\0';
