@@ -1,20 +1,20 @@
 ## About
 
 #### Description
-This is the fastest command line tool for calculating sums of big numbers with infinite precision.
+This is a fast command line interface for calculating high-precision addition.
 
 It's written in C with extreme efficiency and simplicity.
 
 #### License
-[MIT License](https://github.com/liamloads/c-precision-addition/blob/main/LICENSE)
+[MIT License](https://github.com/liamloads/c-precision-addition-cli/blob/main/LICENSE)
 
 ## Installation
 
 #### Unix
 ``` console
 cd
-git clone https://github.com/liamloads/c-precision-addition.git
-cd c-precision-addition
+git clone https://github.com/liamloads/c-precision-addition-cli.git
+cd c-precision-addition-cli
 gcc -o precision-addition precision-addition.c
 ```
 
