@@ -5,6 +5,8 @@ This is a fast command line interface for calculating high-precision addition.
 
 It's written in C with extreme efficiency and simplicity.
 
+A complete line-by-line algorithm code explanation is coming soon.
+
 #### License
 [MIT License](https://github.com/liamloads/c-precision-addition-cli/blob/main/LICENSE)
 
